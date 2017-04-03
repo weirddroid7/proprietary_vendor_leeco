@@ -469,7 +469,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib64/libqcproximity.so:system/vendor/lib64/libqcproximity.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libual.so:system/vendor/lib64/libual.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libualutil.so:system/vendor/lib64/libualutil.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/libusndroute.so:system/vendor/lib64/libusndroute.so
+    vendor/leeco/zl1/proprietary/vendor/lib64/libusndroute.so:system/vendor/lib64/libusndroute.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so
 
 #WV DRM
 PRODUCT_COPY_FILES += \
