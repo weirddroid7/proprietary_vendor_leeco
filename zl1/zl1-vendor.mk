@@ -127,6 +127,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/usf/proximity/cfg_mtp/usf_ranging_mtp_algo_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_ranging_mtp_algo_transparent_data.bin \
     vendor/leeco/zl1/proprietary/etc/usf/readme.txt:system/etc/usf/readme.txt \
     vendor/leeco/zl1/proprietary/etc/usf/version.txt:system/etc/usf/version.txt \
+    vendor/leeco/zl1/proprietary/etc/UEISettings:system/etc/UEISettings \
+    vendor/leeco/zl1/proprietary/etc/init.uei.sh:system/etc/init.uei.sh \
     vendor/leeco/zl1/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/leeco/zl1/proprietary/lib/libLetvCameraImageSDK.so:system/lib/libLetvCameraImageSDK.so \
     vendor/leeco/zl1/proprietary/lib/libamipengine.so:system/lib/libamipengine.so \
@@ -495,4 +497,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     qdcm_calib_data_mdss_dsi_ft8716_1080p_video \
-    qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video
+    qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video \
+    LetvRemoteControl \
+    UEIQuicksetSDKLeTV
