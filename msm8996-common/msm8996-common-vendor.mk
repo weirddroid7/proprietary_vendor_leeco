@@ -392,6 +392,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    com.qti.dpmframework \
+    com.qti.location.sdk \
+    dpmapi \
     libloc_api_v02 \
     libsdm-disp-apis \
     libthermalclient \
