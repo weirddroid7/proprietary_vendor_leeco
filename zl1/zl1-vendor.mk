@@ -481,7 +481,17 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so \
     vendor/leeco/zl1/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/leeco/zl1/proprietary/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so
+
+PRODUCT_COPY_FILES += \
+    vendor/leeco/zl1/proprietary/vendor/etc/firmware/widevine.b00:system/vendor/etc/firmware/widevine.b00 \
+    vendor/leeco/zl1/proprietary/vendor/etc/firmware/widevine.b01:system/vendor/etc/firmware/widevine.b01 \
+    vendor/leeco/zl1/proprietary/vendor/etc/firmware/widevine.b02:system/vendor/etc/firmware/widevine.b02 \
+    vendor/leeco/zl1/proprietary/vendor/etc/firmware/widevine.b03:system/vendor/etc/firmware/widevine.b03 \
+    vendor/leeco/zl1/proprietary/vendor/etc/firmware/widevine.b04:system/vendor/etc/firmware/widevine.b04 \
+    vendor/leeco/zl1/proprietary/vendor/etc/firmware/widevine.b05:system/vendor/etc/firmware/widevine.b05 \
+    vendor/leeco/zl1/proprietary/vendor/etc/firmware/widevine.b06:system/vendor/etc/firmware/widevine.b06 \
+    vendor/leeco/zl1/proprietary/vendor/etc/firmware/widevine.mdt:system/vendor/etc/firmware/widevine.mdt \
+    vendor/leeco/zl1/proprietary/vendor/etc/firmware/widevine.mbn:system/vendor/etc/firmware/widevine.mbn
 
 PRODUCT_PACKAGES += \
     qdcm_calib_data_mdss_dsi_ft8716_1080p_video \
