@@ -413,7 +413,9 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    HotwordEnrollment
+
 PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/bin/iop:system/bin/iop \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
