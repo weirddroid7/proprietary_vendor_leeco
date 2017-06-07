@@ -411,6 +411,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    com.qualcomm.location \
     com.qti.dpmframework \
     com.qti.location.sdk \
     dpmapi \
