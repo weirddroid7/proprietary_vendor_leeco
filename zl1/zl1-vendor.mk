@@ -502,6 +502,4 @@ PRODUCT_PACKAGES += \
     qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video \
     LetvRemoteControl \
     UEIQuicksetSDKLeTV \
-    SmartcardService \
     org.simalliance.openmobileapi
-
