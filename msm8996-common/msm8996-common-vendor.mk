@@ -405,7 +405,6 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     embms \
     shutdownlistener \
-    QtiTetherService \
     com.qualcomm.location \
     qcrilmsgtunnel \
     colorservice \
