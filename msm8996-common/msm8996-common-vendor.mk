@@ -62,6 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
+    vendor/leeco/msm8996-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/leeco/msm8996-common/proprietary/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
